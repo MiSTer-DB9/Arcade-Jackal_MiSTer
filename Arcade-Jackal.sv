@@ -423,14 +423,14 @@ always @(posedge CLK_49M) begin
 			'h6B: btn_left    <= pressed; // left
 			'h74: btn_right   <= pressed; // right
 			'h14: btn_shot    <= pressed; // ctrl						
-			'h11: btn_missile <= pressed; // alt		
+			'h11: btn_missile <= pressed; // alt	
 
 			'h1d: btn_up2     <= pressed; // w
 			'h1b: btn_down2   <= pressed; // s
 			'h1c: btn_left2   <= pressed; // a
 			'h23: btn_right2  <= pressed; // d
 			'h2a: btn_shot2   <= pressed; // v						
-			'h32: btn_missile2<= pressed; // b									
+			'h32: btn_missile2<= pressed; // b												
 		endcase
 	end
 end
